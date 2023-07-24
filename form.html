@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Details</title>
+</head>
+<body>
+<h1>Student Details</h1>
+<fieldset>
+<legend>Student Info</legend>
+<form name="student" action="student.jsp" method="get">
+<table>
+<tr>
+<td><label>Name</label></td>
+<td><input type="text" name="stud_name" required placeholder="enter the name"></td>
+</tr>
+<tr>
+<td><label>Email</label></td>
+<td><input type="email" name="email" placeholder="emailid"></td>
+</tr>
+<tr>
+<td><label>Phone No.</label></td>
+<td><input type="number" name="phone" placeholder="contact no"></td>
+</tr>
+<tr>
+<td><label>Gender</label></td>
+<td>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female</td>
+</tr>
+<tr>
+<td><label>Course</label></td>
+<td><input type="checkbox" name="Course1" value="Java">Java
+<input type="checkbox" name="Course2" value="DS">DS
+<input type="checkbox" name="Course3" value="DBMS">DBMS
+<input type="checkbox" name="Course4" value="AJP">AJP
+<input type="checkbox" name="Course5" value="AI">AI
+</td></tr>
+<tr>
+<td>
+<label>Degree</label></td>
+<td>
+<select>
+<option value="B.E">B.E</option>
+<option value="B.Tech">B.Tech</option>
+</select></td>
+<tr><td>
+<label>Address</label></td><td>
+<textarea cols="22" rows="3"></textarea></td>
+</tr><tr><td>
+<label>Password</label></td>
+<td>
+<input type="password" name="password" placeholder="pass">
+</td></tr>
+<tr>
+<td>
+<input type="submit" name="Register" value="Register"></td>
+<td><input type="reset" name="clear" value="clear"></td></tr>
+</table>
+</form>
+</fieldset>
+</body>
+</html>
